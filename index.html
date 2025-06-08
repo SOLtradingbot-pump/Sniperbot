@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pump.fun Sniper Bot - Dominate the Market</title>
+    <!-- Open Graph Meta Tags for Discord Embed -->
+    <meta property="og:title" content="Pump.fun Sniper Bot - Dominate the Market" />
+    <meta property="og:description" content="Fast, secure trades with anti-MEV protection. Download now to dominate Pump.fun token launches!" />
+    <meta property="og:url" content="https://<username>.github.io/<repository-name>/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/SOLtradingbot-pump/Sniperbot/23dcb1c6dca2370a01b79e5702b7bc2be104ec04/6fbfc0a8-ba1c-4aaa-9892-516f097ba5d9.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/SOLtradingbot-pump/Sniperbot/refs/heads/main/favicon.ico" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
@@ -38,6 +47,25 @@
         .download-stats { display: flex; align-items: center; justify-content: center; gap: 5px; margin-top: 10px; }
         .download-stats i { color: #ffd700; font-size: 1rem; }
         .download-stats small { color: #fff; }
+        /* Style for the high demand notice */
+        .high-demand-notice {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #fff3cd;
+            color: #856404;
+            border-left: 4px solid #ffd700;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+        }
+        .high-demand-notice .icon {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
     </style>
 </head>
 <body>
@@ -108,6 +136,10 @@
                     Download for Windows
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1200px-Windows_logo_-_2012.svg.png" alt="Windows Logo" class="windows-logo">
                 </a>
+                <div class="high-demand-notice">
+                    <span class="icon">⚠️</span>
+                    <span>High Demand: Due to an overwhelming volume of downloads, access may become paid or restricted by July! Act now to secure your free access while it lasts!</span>
+                </div>
                 <div class="download-stats">
                     <i class="fas fa-download"></i>
                     <small>10K+ Downloads</small>
